@@ -1,1 +1,85 @@
-theme: jekyll-theme-minimal
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl: https://www.gayhub.cc
+url: https://www.gayhub.cc
+date_format: "ordinal"
+title: Gayhub
+subtitle: ""
+description: "jami的个人博客"
+keywords: gayhub, blog
+timezone: Asia/Shanghai
+encoding: "utf-8"
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: jami
+organization: 保密
+github_username: jijianming
+location: Shaanxi, China
+email: 996013797@qq.com
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
+  -
+    href: /pages/knowledges
+    label: 知识库
+  - 
+    href: /pages/categories
+    label: 分类
+  - 
+    href: /pages/tools
+    label: 工具箱
+
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
+paginate: 10
+highlighter: rouge
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - jekyll-octicons
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+    - rouge
+
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+comments_provider: gitalk
+# https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: moonlightwatch
+    repo: moonlightwatch.github.io
+    clientID: 8f121855631e69536a30
+    clientSecret: 8a953187d33ef7412a8dbb58d20b33a5b3b28a7b
+
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: UA-98480829-1
