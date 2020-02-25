@@ -25,5 +25,3 @@ titles:
   # @end locale config
 key: about
 ---
-## 关于本站
-  哈哈哈哈
