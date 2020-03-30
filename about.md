@@ -25,9 +25,10 @@ titles:
   # @end locale config
 key: about
 ---
-### 我是谁
-jami 某手游公司运维开发
+#### 我是谁
 
-### 关于本站
+某手游公司运维开发
+
+#### 关于本站
 
 灵感来源GitHub
