@@ -22,7 +22,7 @@ url     : https://www.gayhub.cc # the base hostname & protocol for your site e.g
 baseurl : # does not include hostname
 title   : Jami's blog
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  分享奇怪的事情
 
 
 ## => Language and Timezone
