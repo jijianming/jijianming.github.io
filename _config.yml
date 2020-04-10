@@ -71,7 +71,7 @@ paths:
 ## => Post
 ##############################
 ## excerpt
-# excerpt_separator: <!--more-->
+excerpt_separator: <!--more-->
 excerpt_type: html ## text | html
 
 ## license
